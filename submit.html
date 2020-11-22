@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="shortcut icon" type="image/x-icon"
+    href="https://cdn.discordapp.com/attachments/778709189664047149/780117920994951198/Logolight.png">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit</title>
+    <link rel="stylesheet" href="submit.css">
+</head>
+<body>
+    <header id="header">
+        <nav class="menu">
+            <label class="logito"></label>
+            <ul class="menu_items">
+                <li class="active"><a href="contact.html">CONTACT</a></li>
+				<li><a href="submit.html">JOIN</a></li>
+            </ul>
+            <span class="btn_menu">
+                <i class="fa fa-bars"></i>
+            </span>
+        </nav>
+    </header>
+    <!--Simple form that needs a navbar, font, and colors-->
+    <form action="{{ insert "jobs" }}" method="POST">
+        <input type="text" name="name">
+        <input type="text" name="desc">
+        <input type="text" name="contact">
+        <input type="submit">
+    </form>
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright"> <strong>Computer Careers.</strong> Helping YOU discover your career in tech
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
