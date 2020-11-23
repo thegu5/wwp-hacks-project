@@ -1,4 +1,6 @@
 # wwp-hacks-project
+Computer Careers: Helping YOU discover your career in tech
+
 The Problem:
 There are thousands of careers and jobs in the computer science and tech fields, yet most people can only name about five different careers. There are careers that are lesser known that some people would love and excels at that is right under their noses.
 
